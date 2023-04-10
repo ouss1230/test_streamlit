@@ -13,7 +13,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 
-RUN git clone https://github.com/ouss1230/test_streamlit.git .
+#RUN git clone https://github.com/ouss1230/test_streamlit.git .
+COPY . .
 
 RUN pip3 install -r requirements.txt
 

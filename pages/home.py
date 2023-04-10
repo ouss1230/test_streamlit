@@ -57,6 +57,7 @@ def plot_best_fit(X, y, model):
     # show the plot
     pyplot.title(type(model).__name__)
     pyplot.show()
+    st.pyplot(pyplot)
 
 def run():
     # load dataset

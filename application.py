@@ -1,6 +1,6 @@
 import streamlit as st
 from multiclass import MultiAppfunc
-from pages import home, model1, model2 # import your app modules here
+from pages import home
 
 
 
