@@ -74,7 +74,7 @@ def run():
 
 def app():
     st.write('''
-    # Mortality Prediction in ICU App and GOSSIS app
+    # this is the home page 
 
     this is the home page 
     ''')
